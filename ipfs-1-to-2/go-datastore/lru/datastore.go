@@ -3,7 +3,7 @@ package lru
 import (
 	"errors"
 
-	lru "github.com/ipfs/fs-repo-migrations/ipfs-1-to-2/golang-lru"
+	lru "github.com/hashicorp/golang-lru"
 
 	ds "github.com/ipfs/fs-repo-migrations/ipfs-1-to-2/go-datastore"
 	dsq "github.com/ipfs/fs-repo-migrations/ipfs-1-to-2/go-datastore/query"
